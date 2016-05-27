@@ -78,10 +78,7 @@ namespace CodogrammPlayer
         {
             bool isDown = true;
             List<short> temp = new List<short>();
-            string cur = "";
-            string cur_2 = "";
             Int16 ch_opos = -0x4000, ch_poss = 0x4000;
-            short chpp;
 
             foreach(char ch in bit_str)
             {
